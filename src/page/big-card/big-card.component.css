@@ -1,0 +1,11 @@
+.content-big-card {
+  width: 300px;
+  min-height: 300px auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.content-big-card > h3 {
+  margin-bottom: 10px;
+}

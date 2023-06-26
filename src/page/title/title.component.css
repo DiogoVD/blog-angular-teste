@@ -1,0 +1,12 @@
+.titulo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.titulo > img {
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+  margin-left: 10px;
+}

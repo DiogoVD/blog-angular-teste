@@ -1,0 +1,32 @@
+.pessoal__card {
+  display: flex;
+  flex-direction: row;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  width: 150px;
+}
+
+.contato > a > img {
+  border: solid 0.5px;
+  width: 75px;
+  min-height: 75px;
+  border-radius: 75px;
+}
+.dados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  width: 150px;
+}
+
+.dados > img {
+  width: 80px;
+  min-height: 80px;
+  border-radius: 80px;
+}

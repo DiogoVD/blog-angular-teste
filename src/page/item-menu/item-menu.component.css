@@ -1,0 +1,14 @@
+.box {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(235, 235, 235);
+}
+
+.box > img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.box > a {
+  background-color: rgb(235, 235, 235);
+}

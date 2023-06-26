@@ -1,0 +1,33 @@
+.container__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.container__header > app-title {
+  margin: 10px;
+  width: 2000px;
+  color: green;
+}
+
+.container__menu {
+  border: 2px solid;
+  border-color: aliceblue;
+  background-color: rgb(206, 201, 201);
+}
+
+.container__content {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+
+  margin-top: 30px;
+}
+.content__small {
+  display: flex;
+  flex-wrap: wrap;
+}
